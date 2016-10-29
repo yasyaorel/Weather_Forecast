@@ -1,0 +1,153 @@
+* {
+    transition: all .1s ease-in;
+}
+
+html, body, div, h1, h2, h3, p, b, i, strong, em, strike, sub, sup, ul, ol, li,
+blockquote, form, input, textarea, select, button, td, tr, th, table, span,
+header, footer, article, aside, nav, section, main  {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    /*Выравнивает базовую линию текущего элемента
+    по базовой линии родителя. Если родительский элемент не имеет базовой
+    линии, то за нее принимается нижняя граница элемента.*/
+}
+
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: #3399cc;
+    color: #fff;
+    border: 20px solid #2d7fae;
+    margin: auto;
+}
+
+div {
+    margin: 0 auto;
+    width: 90%;
+}
+
+header {
+    padding: 20px 0;
+}
+
+
+ul {
+    list-style: none;
+    font-size: 0;
+}
+
+/*
+-webkit- — вендорный префикс для Safari и Chrome;
+-moz- — префикс для браузеров из семейства Mozilla.
+        
+Свойство box-sizing позволяет, чтобы свойства width и height
+задавали размеры не контента, а размеры блока.
+
+border-box - cвойства width и height включают в себя значения полей и границ*/
+
+ul,
+li {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul {
+    width: 80%;
+    text-align: center;
+    font-size: 0;
+}
+
+ul:hover > li {
+    opacity: 0.6; /*Определяет уровень прозрачности элемента*/
+}
+
+ul li:hover {
+    opacity: 1;
+}
+
+li {
+    padding: 30px 10px;
+    border: 3px solid #fff;
+    text-align: center;
+    font-size: 19px;
+}
+
+p {
+    color: #ffffff;
+    opacity: 0.5;
+    padding: 10px;
+    font-size: 20px;
+    vertical-align: baseline;
+}
+
+.wi {
+    font-size: 25px;
+}
+
+.city1 {
+    width: 50%;
+    background-color: #3398cc;
+    border-top: 6px solid;
+    border-left: 6px solid;
+}
+
+.city2 {
+    width: 25%;
+    background-color: #33cbcc;
+    border-top: 6px solid;
+}
+
+.city3 {
+    width: 25%;
+    background-color: #986699;
+    border-top: 6px solid;
+    border-right: 6px solid;
+}
+
+.city4 {
+    width: 25%;
+    background-color: #c34747;
+    border-left: 6px solid;
+}
+
+.city5 {
+    width: 25%;
+    background-color: #e2664a;
+}
+
+.city6 {
+    width: 25%;
+    background-color: #ffcc66;
+}
+
+.city7 {
+    background-color: #9acc99;
+    width: 25%;
+    border-right: 6px solid;
+}
+
+.city8 {
+    width: 25%;
+    background-color: #67999a;
+    border-left: 6px solid;
+}
+
+.city9 {
+    background-color: #cc6698;
+    width: 50%;
+}
+
+.city10 {
+    width: 25%;
+    background-color: #339967;
+    border-right: 6px solid;
+}
+
+.city11 {
+    width: 100%;
+    background-color: #66669a;
+    border-left: 6px solid;
+    border-bottom: 6px solid;
+    border-right: 6px solid;
+}
